@@ -1,0 +1,38 @@
+{
+    //background设置开始
+        "background.enabled": false,
+        "background.loop": false,
+        "background.useDefault": false,
+        "background.useFront": true,
+        "background.customImages": [
+                "file:///D:/Pictures/vscode_background/Seraphine3.png",
+        ],
+        "background.style": {
+            "content": "''",
+            "pointer-events": "none",
+            "position": "absolute",
+            "z-index": "99999",
+            "width": "100%",
+            "height": "100%",
+            "background-position": "50% 50%",
+            "background-repeat": "no-repeat",
+            "opacity": 0.1
+        },
+        "background.styles": [
+
+            {},
+            {},
+            {}
+        ],
+        "C_Cpp.errorSquiggles": "Disabled",
+    //background设置结束
+
+
+    //中文输入乱码设置
+        // "editor.fontSize": 18,
+        // "terminal.integrated.shellArgs.windows": ["/K chcp 65001 >nul"],
+        // "terminal.integrated.fontFamily": "Lucida Console",
+        "terminal.integrated.shellArgs.windows": ["-NoExit", "/c", "chcp 65001"]
+        
+        
+}
